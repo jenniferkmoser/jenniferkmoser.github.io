@@ -75,6 +75,7 @@ article h2 {
 article ul {
     margin-top: 4px;
     margin-bottom: 4px;
+    text-indent: 1.5em;
 }
 
 article li {
