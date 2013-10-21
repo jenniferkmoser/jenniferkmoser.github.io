@@ -72,6 +72,11 @@ article h2 {
     margin-top: 10px;
 }
 
+article h3 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
 article ul {
     margin-top: 4px;
     margin-bottom: 4px;
