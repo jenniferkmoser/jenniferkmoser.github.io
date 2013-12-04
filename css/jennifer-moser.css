@@ -18,8 +18,7 @@ p{
 
 header {
     background-color: #ffff99;
-    color: #ffffff;
-    height: 44px;
+    height: 40px;
 }
 
 header h1 {
@@ -42,7 +41,7 @@ header a {
 }
 
 header a:hover {
-    color: #ffffff;
+    color: #838B8B;
 }
 header a:active {
     text-decoration: underline;
@@ -54,15 +53,15 @@ article {
     padding: 0 10px 0 10px;
 }
 
-article h1 {
-    font-size: 36px;
-    line-height: 44px;
-    margin-top: 4px;
-}
-
 article img {
     width: 20%;
     float: left;
+}
+
+article h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
 }
 
 article h2 {
@@ -91,4 +90,45 @@ footer {
     float: right;
     font-size: 12px;
     padding: 0px 10px 0 10px; 
+}
+
+@media screen and (max-width: 600px) {
+    
+    body{
+        padding: 5%;
+        text-align: center;
+        line-height: 24px;
+    }
+    
+    nav {
+        text-align: center;
+    }
+    
+    header h1{
+        margin-left: 5%;    
+    }
+    
+    article h1 {
+        margin-left: 5%;
+    }
+        
+    article h2 {
+        margin-left: 5%;
+    }
+    
+    article p {
+        margin-left: 5%;
+        width: 90%;
+        text-indent: 0em;
+        text-align: justify;
+    }
+    
+    article img {
+        float: center;
+        margin-left: 5%;
+    }
+    
+    article iframe {
+        width: 100%;
+    }
 }
